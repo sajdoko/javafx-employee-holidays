@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="400.0" stylesheets="@../resources/stylesheet.css" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+       <Text id="welcome-text" layoutX="138.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="bg-blue" text="Welcome" textAlignment="CENTER" />
+       <Text layoutX="92.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your employee username:" textAlignment="CENTER" wrappingWidth="216.0" />
+       <TextField fx:id="usernameField" layoutX="76.0" layoutY="249.0" prefHeight="26.0" prefWidth="248.0" promptText=" username" />
+       <Button id="login-button" layoutX="76.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleLoginButtonAction" prefHeight="32.0" prefWidth="248.0" text="Login" />
+</AnchorPane>

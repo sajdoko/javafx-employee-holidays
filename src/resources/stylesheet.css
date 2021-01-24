@@ -1,0 +1,49 @@
+#AnchorPane {
+    -fx-background-color: #ffffff;
+}
+#header {
+    -fx-background-color: #2AABE4;
+}
+
+#login-button {
+    -fx-background-color: #2AABE4;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18px;
+    -fx-border-radius: none;
+}
+
+#login-button:hover {
+    -fx-background-color: derive(#2AABE4, -10%);
+    -fx-font-size: 18px;
+    -fx-border-radius: none;
+}
+
+#submit-button {
+    -fx-background-color: #2AABE4;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: none;
+}
+
+#submit-button:hover {
+    -fx-background-color: derive(#2AABE4, -10%);
+    -fx-border-radius: none;
+}
+
+#welcome-text {
+    -fx-font-size: 30px;
+    -fx-background-color: #2AABE4;
+    -fx-text-fill: #ffffff;
+}
+
+.bg-blue {
+    -fx-font-size: 30px;
+    -fx-background-color: #2AABE4;
+}
+
+.button-round-red {
+    -fx-background-color: #be1d00;
+    -fx-text-fill: white;
+}
+.button-round-red:hover {
+    -fx-background-color: #8c1b01;
+}
